@@ -1,0 +1,22 @@
+{
+  "$schema": "../schemas/project.schema.json",
+  "project_id": "m_t53f",
+  "author": {
+    "id": "326075050"
+  },
+  "entry": "imported_main.lua",
+  "version": "1.0.67",
+  "taptap_publish": {
+    "title": "拉杆军团",
+    "description": "一拉定乾坤,军团任你抽拉一下,来一支军队手气够好,神仙也能拉出来",
+    "category": "strategy",
+    "screen_orientation": "landscape",
+    "collection_type": "sce",
+    "trial_note": "记得可以用高星的低品质角色，喂给低星的高品质角色",
+    "app_platforms": "1,2",
+    "release_phase": "public_test"
+  },
+  "metadata": {
+    "updated_at": "2026-10-28T11:57:44.586Z"
+  }
+}

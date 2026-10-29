@@ -1,0 +1,29 @@
+{
+  "$schema": "../schemas/resources.schema.json",
+
+  "preload_groups": [
+    "music",
+    "sfx13"
+  ],
+
+  "groups": {
+    "default": [
+      "**"
+    ],
+    "music": [
+      "audio/Sounds/bgm_*.ogg",
+      "audio/Sounds/home_*.ogg",
+      "audio/bgm_battle4.ogg",
+      "audio/bgm_battle5.ogg",
+      "audio/05/bgm_*.ogg"
+    ],
+    "sfx13": [
+      "audio/05/lock.ogg",
+      "audio/05/unlockslot.ogg",
+      "audio/05/purchase.ogg",
+      "audio/05/equip.ogg",
+      "audio/05/unequip.ogg",
+      "audio/05/exchange.ogg"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+# Build artifacts & runtime state
+.build/
+dist/
+.cli/
+logs/
+*.log
+logs/.nfs*
+.sce/logs/
+.sce/build/build_steps/__pycache__/
+
+# Temp & swap files
+.tmp/
+*.crswap
+.DS_Store
+
+# OSS util
+.ossutil_checkpoint/
+ossutil_output/
+
+# Editor / IDE / agent configs
+.vscode/
+.cursor/
+.codex/
+.gemini/
+.claude/
+.emmylua/
+.installer/
+.maker/
+
+# Maker engine assets & agent files (provided by ai-dev-kit, not user source)
+engine-docs/
+examples/
+lua-tools/
+schemas/
+skills/
+templates/
+tools/
+urhox-libs/
+AGENTS.md
+CLAUDE.md
+
+# Merge backups & large local artifacts (not source)
+backups/
+screenshots/
+shots/
+_uploads/
+crash_trace.txt
+layout_trace.txt
+save.json
+libhv.*.log
+
+# 对外分发的工程包（源码的重复副本，随时可从工程重新打包）
+lajun-urhox-src-*.zip
+lajun-urhox-src-*.tar.gz
+lajun-lite-*.zip
+lajun-lite-*.tar.gz
